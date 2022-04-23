@@ -1,10 +1,10 @@
 import React from 'react'
-import { GetApiRAM } from './Components/GetApi/GetApi'
+import { Page } from './Page/Page'
 
 function App() {
   return (
     <div className="App">
-      <GetApiRAM/>
+      <Page/>
     </div>
   );
 }

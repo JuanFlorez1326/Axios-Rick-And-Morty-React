@@ -12,7 +12,7 @@ export const CardUI = ({ data }) => {
 
             <div className='divInfoCard'>
                 <h1 className='classTitleCard'>{ name }</h1>
-                <h4 className='itemInfo'>Status: { status }</h4>
+                <h4 className='itemInfo classInfoCard'>Status: { status }</h4>
                 <h4 className='itemInfo'>Gender: { gender }</h4>
                 <h4 className='itemInfo'>Species: { species }</h4>
                 <h4 className='itemInfo'>Origin: { origin.name }</h4>

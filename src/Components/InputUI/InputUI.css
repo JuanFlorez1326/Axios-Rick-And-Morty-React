@@ -12,3 +12,17 @@
 .divInputUI{
     text-align:center;
 }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    .inputSearch{
+        width:50%;
+        margin-top:2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .inputSearch{
+        width:70%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+}

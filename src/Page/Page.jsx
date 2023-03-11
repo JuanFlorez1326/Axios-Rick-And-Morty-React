@@ -1,7 +1,7 @@
 import React from "react"
 import { HeaderUI } from '../Components/HeaderUI/HeaderUI'
 import { GetApiRAM } from '../Components/GetApi/GetApi'
-import { FooterUI } from '../Components/FooterUI/FooterUI'
+// import { FooterUI } from '../Components/FooterUI/FooterUI'
 
 export const Page = () => {
     return (
@@ -12,9 +12,9 @@ export const Page = () => {
             <main>
                 <GetApiRAM/>
             </main>
-            <footer>
+            {/* <footer>
                 <FooterUI/>
-            </footer>
+            </footer> */}
         </div>
     )
 }
